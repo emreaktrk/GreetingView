@@ -23,4 +23,15 @@
         android:textColor="@android:color/black"
         app:leftColor="@color/colorPrimary"
         app:leftDrawable="@drawable/ic_arrow" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.emreakturk.feedbackview.FeedbackView
+        android:id="@+id/main_feedbackview"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="96dp" />
 </LinearLayout>
