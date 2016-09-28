@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GreetingView.iml" filepath="$PROJECT_DIR$/GreetingView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feedbackview/feedbackview.iml" filepath="$PROJECT_DIR$/feedbackview/feedbackview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greetingview/greetingview.iml" filepath="$PROJECT_DIR$/greetingview/greetingview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iconbutton/iconbutton.iml" filepath="$PROJECT_DIR$/iconbutton/iconbutton.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sample.MainActivity">
+
+    <com.emreakturk.greetingview.GreetingView
+        android:id="@+id/main_greetingview"
+        android:layout_width="match_parent"
+        android:layout_height="96dp" />
+
+    <com.emreakturk.iconbutton.IconButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@android:color/white"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Deneme"
+        android:textColor="@android:color/black"
+        app:leftColor="@color/colorPrimary"
+        app:leftDrawable="@drawable/ic_arrow" />
+</LinearLayout>
